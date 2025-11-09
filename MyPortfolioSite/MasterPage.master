@@ -11,12 +11,18 @@
     <form id="form1" runat="server">
         <header>
             <nav class="nav-right">
-        <ul>
-            <li><a href="Default.aspx">Home</a></li>
-            <li><a href="About.aspx">About</a></li>
-            <li><a href="Projects.aspx">Projects</a></li>
-        </ul>
-    </nav>
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="About.aspx">About</a></li>
+                    <li><a href="Projects.aspx">Projects</a></li>
+
+                    <!-- show only when logged in -->
+                    <li id="liContact" runat="server" ><a href="Contact.aspx">Contact</a></li>
+
+                    <!-- Per instructions: Login link remains visible whether logged in or not -->
+                    <li><a href="Login.aspx">Login</a></li>
+                </ul>
+            </nav>
         </header>
 
         <div class="container">
@@ -24,7 +30,7 @@
         </div>
 
         <footer>
-            <p>&copy; <%: DateTime.Now.Year %> Indu Battula. All rights reserved.</p>
+            <p>© <%: DateTime.Now.Year %> Indu Battula. All rights reserved.</p>
         </footer>
     </form>
 </body>

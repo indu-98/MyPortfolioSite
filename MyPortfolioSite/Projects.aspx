@@ -49,7 +49,7 @@
             </div>
             <div class="project-actions">
                 <a class="btn btn-primary" href="<%: ResolveUrl("~/Default.aspx") %>">Live Demo</a>
-                <a class="btn" href="https://github.com/indubattula/portfolio-site" target="_blank" rel="noopener">GitHub Repo</a>
+                <a class="btn" href="https://github.com/indu-98/MyPortfolioSite" target="_blank" rel="noopener">GitHub Repo</a>
             </div>
         </article>
 
